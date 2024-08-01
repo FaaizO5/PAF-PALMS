@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="rectangle w-full h-[1025px] relative bg-[#2C5ABB]">
+        <img
+          src="./src/images/paf.svg"
+          alt="paf-logo"
+          class="w-[482px] absolute h-[274px] top-[155px] left-[130px]"
+        />
+        <p
+          class="text-white font-poppins text-5xl font-bold absolute w-[444px] h-[72px] top-[442px] left-[151px]"
+        >
+          Pakistan Air Force
+        </p>
+        <p
+          class="text-white font-poppins text-2xl absolute w-[515px] h-[36px] top-[495px] left-[112px] font-medium"
+        >
+          Automated Logistics Management System
+        </p>
+        <p
+          class="text-white font-poppins text-2xl absolute w-[103px] h-[36px] top-[567px] left-[318px] font-semibold"
+        >
+          (PALMS)
+        </p>
+      </div>
+      <div class="rectangle w-full h-[1024px] bg-[#F9F8F8]">
+        <div
+          class="container relative w-[390px] h-[500px] top-[261px] left-[235px] gap-8"
+        >
+          <div class="content absolute left-[11px]">
+            <header class="w-[360px] h-[38px] gap-[24px]">
+              <div class="heading w-[360px] h-[38px] gap-[12px]">
+                <div class="wrapper w-[342px] h-[38px] gap-[8px]">
+                  <p
+                    class="text-[#212529] font-poppins font-semibold text-[32px] leading-[38.4px] w-[342px] h-[38px] gap-3"
+                  >
+                    Log in to CSRV Server
+                  </p>
+                </div>
+              </div>
+            </header>
+            <div class="content w-[360px] h-[312px] my-4">
+              <form class="w-[360px] h-[164px]">
+                <div class="form-item w-[360px] h-[82px]">
+                  <div class="my-2 py-1">
+                    <label
+                      class="w-[44px] h-[24px] text-[#212529] font-poppins font-normal text-base"
+                      for="email"
+                    >
+                      Email</label
+                    >
+                  </div>
+                  <div>
+                    <input
+                      class="w-[344px] h-[38px] border-[#CED4DA] form-input rounded pt-[6px] pl-[12px] pr-[6px] pb-[11px] placeholder:gap-2 placeholder:[#6C757D] placeholder:font-poppins placeholder:font-normal placeholder:text-sm"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter Your email"
+                    />
+                  </div>
+                  <div class="my-2">
+                    <label
+                      class="w-[44px] h-[24px] text-[#212529] font-poppins font-normal text-base"
+                      for="Password"
+                      >Password</label
+                    >
+                  </div>
+                  <div>
+                    <input
+                      class="relative w-[344px] h-[38px] form-input border-[#CED4DA] rounded pt-[6px] pl-[12px] pr-[6px] pb-[11px] placeholder:gap-2 placeholder:[#6C757D] placeholder:font-poppins placeholder:font-normal placeholder:text-sm"
+                      type="password"
+                      id="Password"
+                      name="Password"
+                      placeholder="Password"
+                    />
+                    <span class="absolute top-[186px] right-[29px]"
+                      ><img src="./src/images/eye-slash.svg" alt="" />
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="row w-[360px] h-[36px] pt-[89px] pl-[10px] gap-[91px]"
+                >
+                  <div>
+                    <input
+                      type="checkbox"
+                      class="absolute form-checkbox rounded bottom-[136px] left-[1px]"
+                      id="checkbox"
+                    />
+                  </div>
+                  <span>
+                    <label
+                      for="checkbox"
+                      class="font-poppins font-normal text-base text-[#212529] pr-[59px] m-3"
+                      >Remember Me</label
+                    >
+                  </span>
+                  <a
+                    class="w-[134px] h-[24px] underline text-[#0D6EFD] font-poppins font-normal text-base"
+                    href="https://www.google.com/"
+                    >Forget Password</a
+                  >
+                </div>
+                <div
+                  class="absolute action w-[344px] h-[38px] top-[290px] left-[1px]"
+                >
+                  <button
+                    class="w-[344px] h-[38px] border border-[#0D6EFD] bg-[#0D6EFD] rounded font-poppins font-medium text-base text-white"
+                  >
+                    Sign in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <img
+          class="relative w-full overflow-hidden top-[404px]"
+          src="./src/images/Vectors.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
